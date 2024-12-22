@@ -1,0 +1,35 @@
+{
+  "id": "word_list",
+  "type": "SharedSlice",
+  "name": "WordList",
+  "description": "WordList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "word_list": {
+          "type": "Group",
+          "config": {
+            "label": "Word List",
+            "repeat": true,
+            "fields": {
+              "word": {
+                "type": "Text",
+                "config": {
+                  "label": "Word",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

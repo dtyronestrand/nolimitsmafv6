@@ -1,0 +1,7 @@
+17:37:00.465 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17:37:00.526 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+17:38:13.319 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - nolimitsmaf successfully activated FBKV (SurveyIdle(0)) wait: 80ms, init: 0ms
+21:10:49.439 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+21:10:49.460 [NamespaceSystem-akka.actor.default-dispatcher-43] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: nolimitsmaf
+21:10:49.465 [NamespaceSystem-akka.actor.default-dispatcher-44] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for nolimitsmaf
+21:10:49.468 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
