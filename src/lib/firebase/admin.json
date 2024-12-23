@@ -1,0 +1,7 @@
+import admin from "firebase-admin"
+import * as credential from "./nolimitsmaf-firebase-adminsdk-eglcx-468344ab1a.json"
+
+admin.initializeApp({credential: admin.credential.cert(credential)
+});
+
+export const auth = admin.auth
