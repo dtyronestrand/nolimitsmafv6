@@ -1,11 +1,11 @@
 import {dev} from '$app/env"
 import {auth} from "$lib/firebase/firebase-admin"";
-
-const key = AIzaSyAh7dvJfp-NkYVysWhEuR2T2f0HRH9AZRA
+import { FIREBASE_WEBAPIKEY } from '$env/static/private';
+const key = FIREBASE_WEBAPIKEY
 const secure = dev ? ' ' : 'Secure;'
 
 export const post = async (event)=>{
-    const {email. password, username} = await event.request.json()
+    const {email, password, username} = await event.request.json()
     const userRecord = await auth().createUser({
         email,
         password,
