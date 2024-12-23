@@ -3,15 +3,14 @@
 	import { page } from '$app/stores';
 	import { PrismicLink } from '@prismicio/svelte';
 	import IconMenu from '~icons/ph/list-bold';
-	import IconClose from '~icons/ph/x-bold';
-	import { asLink } from '@prismicio/client';
+	import IconClose from '~icons/ph/x-bold';	import { asLink } from '@prismicio/client';
 	import clsx from 'clsx';
 	import { goto } from '$app/navigation';
 	import { session, type SessionState } from '$lib/firebase/session';
 	import { signOut } from 'firebase/auth';
 	import { auth } from '$lib/firebase/firebase.client';
 	import { authUser } from '$lib/firebase/session';
-	let loggedIn = $page.data.loggedIn;
+	let loggedIn = $page.data.loggedIn;~
 	export let settings: Content.SettingsDocument;
 
 	console.log(session);

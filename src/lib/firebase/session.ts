@@ -14,7 +14,7 @@ export type SessionState = {
 };
 
 export const session = <Writable<SessionState>>writable();
-console.log(session);
+
 interface AuthUser {
 	uid: string;
 	email: string;
